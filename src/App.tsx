@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "../src/components/ui/carousel";
 import { cardItems, trending_products } from "./lib/utils";
-import { ChevronLeft, ChevronRight, Instagram, Linkedin, Menu, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, Instagram, Linkedin, } from "lucide-react";
 
 function App() {
 
