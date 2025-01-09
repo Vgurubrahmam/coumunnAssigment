@@ -52,7 +52,7 @@ export const cardItems=[
 export const trending_products=[
   {
     title: "Luxury Bed Set",
-    img: "https://www.figma.com/file/MTcDtv29awUDXFVDAnwnVR/image/c64bc42c63341ea16e5872842115871305fb111f",
+    img: "https://i.ibb.co/ZdjbrQ2/Vector-1.png",
   },
   {title: "Luxury Sofa Set",
     img:"https://th.bing.com/th/id/OIP.uBo-Fh0De5EwCdty0YSE7QHaDt?rs=1&pid=ImgDetMain ",

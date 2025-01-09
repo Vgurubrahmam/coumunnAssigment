@@ -67,8 +67,8 @@ const Header = () => {
           </div>
         </div>
         <div className="flex items-center gap-7">
-          <img src="src/assets/search.png" alt="Search" />
-          <img src="src/assets/profile.png" alt="Profile" />
+          <img src="https://i.ibb.co/ZGZ76Kc/Frame-1.png" alt="Search" />
+          <img src="https://i.ibb.co/m6ZDDXr/Frame.png" alt="Profile" />
         </div>
       </div>
     </header>

@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <div className="w-full">
         <Header />
         <div className="w-full py-8 px-8">
-          <img src="src/assets/homepage.png" className="w-full h-[90%]" />
+          <img src="https://i.ibb.co/hyPFRg1/Group-5.png" className="w-full h-[90%]" />
           <h1 className="font-bold text-3xl text-center py-3 max-sm:text-xl">
             Product Categories
           </h1>
@@ -59,7 +59,7 @@ const App: React.FC = () => {
             </Carousel>
           </div>
           <div className="bg-[#D3D3D3] w-full h-14 rounded-xl my-10 flex items-center justify-start gap-4 p-4">
-            <img src="src/assets/segment.png" />
+            <img src="https://i.ibb.co/8P60LRL/Frame-4.png" />
             <h1 className="font-bold"> Segments</h1>
           </div>
           <div className="flex items-center justify-center h-full gap-4 w-full max-sm:flex-col">
@@ -84,7 +84,7 @@ const App: React.FC = () => {
           </div>
           <div className="bg-[#D3D3D3] w-full h-14 rounded-xl my-10 flex items-center justify-between gap-4 p-4 max-sm:p-2">
             <div className="flex items-center justify-start gap-4 p-4 max-sm:p-0 max-sm:gap-3">
-              <img src="src/assets/trending_products.png" />
+              <img src="https://i.ibb.co/8P60LRL/Frame-4.png" />
               <h3 className="font-bold max-sm:text-xs"> Trending products</h3>
             </div>
             <div className="flex items-center justify-end gap-1 p-4 max-sm:p-0 max-sm:gap-0">
@@ -186,10 +186,10 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-2 w-[50%] gap-4 max-sm:w-full max-sm:px-5">
-              <img src="src/assets/img1.png" className="w-fit h-fit" />
-              <img src="src/assets/img2.png" className="w-fit max-h-fit" />
-              <img src="src/assets/img3.png" className="w-fit h-fit mt-0 space-y-0" />
-              <img src="src/assets/img4.png" className="w-fit h-fit" />
+              <img src="https://i.ibb.co/rmqtfyN/Group-3.png" className="w-fit h-fit" />
+              <img src="https://i.ibb.co/fY4pht5/Rectangle-2.png" className="w-fit max-h-fit" />
+              <img src="https://i.ibb.co/kMT8Z1f/Rectangle-1.png" className="w-fit h-fit mt-0 space-y-0" />
+              <img src="https://i.ibb.co/bRMjbj3/Group-4.png" className="w-fit h-fit" />
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ const App: React.FC = () => {
           </h1>
           <div className="flex flex-wrap justify-center items-center gap-5 min-h-screen py-5 px-5">
             <div className="w-[438px] h-[320px] bg-[#D3D3D3] rounded-xl flex flex-col items-center justify-end gap-4">
-              <img src="src/assets/collections.png" />
+              <img src="https://i.ibb.co/bF3NW3j/Frame-5.png" />
               <div className="p-5">
                 <p className="font-bold">500 + Collections</p>
                 <p>
@@ -312,7 +312,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="w-[438px] h-[320px] bg-[#D3D3D3] rounded-xl flex flex-col items-center justify-end gap-4">
-              <img src="src/assets/top-nouch.png" className="h-[28%]" />
+              <img src="https://i.ibb.co/C5HsFCR/Frame-6.png"  className="h-[28%]" />
               <div className="p-5">
                 <p className="font-bold">Top-notch Quality</p>
                 <p>
@@ -323,7 +323,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="w-[438px] h-[320px] bg-[#D3D3D3] rounded-xl flex flex-col items-center justify-end gap-4">
-              <img src="src/assets/coustomization.png" className="h-[28%]" />
+              <img src="https://i.ibb.co/Yj1YDBL/Frame-7.png" className="h-[28%]" />
               <div className="p-5">
                 <p className="font-bold">Colour and Length customization</p>
                 <p>
@@ -379,7 +379,7 @@ const App: React.FC = () => {
           </div>
           <hr className="w-[98%] m-auto mt-4" />
           <p className="text-center py-2">2024 © All rights reserved - Cozy Comfort</p>
-          <img src="src/assets/transcation.png" className="m-auto" />
+          <img src="https://i.ibb.co/GWWCyxS/image-17-1.png" className="m-auto" />
         </div>
       </div>
     </>

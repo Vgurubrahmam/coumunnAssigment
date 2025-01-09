@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Coumnn project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
 
-Currently, two official plugins are available:
+This project is built using Vite, a fast and modern build tool for web development. Vite provides a development server with hot module replacement (HMR) and a lightning-fast build process using Rollup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Fast development server with HMR
+- Optimized build process
+- Support for modern JavaScript and TypeScript
+- Easy integration with popular frameworks like React, Vue, and Svelte
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+To get started with this project, follow these steps:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone the repository:
+  ```sh
+  git clone https://github.com/your-username/vite-project.git
+  ```
+2. Navigate to the project directory:
+  ```sh
+  cd vite-project
+  ```
+3. Install dependencies:
+  ```sh
+  npm install
+  ```
+4. Start the development server:
+  ```sh
+  npm run dev
+  ```
+
+## Building for Production
+
+To build the project for production, run:
+```sh
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+This will create an optimized build in the `dist` directory.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## License
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This project is licensed under the MIT License.
